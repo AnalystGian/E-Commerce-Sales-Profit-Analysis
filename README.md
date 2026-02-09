@@ -17,9 +17,8 @@ The goal is to transform raw transactional data into actionable insights that su
 https://www.kaggle.com/datasets/sidramazam/e-commerce-sales-performance-analysis
 
 
-# Dataset Overview & Assumptions
+# Dataset Overview
 3,500 e-commerce transaction records
-
 7 structured fields:
 
 Order Date
@@ -37,13 +36,13 @@ Sales (Revenue)
 Profit
 
 # Key Assumptions
-Each row represents a single transaction record
+1. Each row represents a single transaction record
 
-Sales is treated as revenue
+2. Sales is treated as revenue
 
-Profit is provided directly (cost breakdown not available)
+3. Profit is provided directly (cost breakdown not available)
 
-No customer-level or order-level identifiers are present
+4. No customer-level or order-level identifiers are present
 
 # Scope Limitation
 Analysis focuses on business insights and decision-making, not data cleaning or predictive modeling.
